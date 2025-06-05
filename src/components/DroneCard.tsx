@@ -4,7 +4,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 import { 
-  Drone, 
+  Plane, 
   Wifi, 
   PlayCircle, 
   PauseCircle, 
@@ -100,7 +100,7 @@ const DroneCard: React.FC<DroneCardProps> = ({ drone }) => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <div className="p-2 bg-cyan-500/20 rounded-lg border border-cyan-500/30">
-                <Drone className="w-6 h-6 text-cyan-400" />
+                <Plane className="w-6 h-6 text-cyan-400" />
               </div>
               <CardTitle className="text-2xl font-bold text-white">{droneData.name}</CardTitle>
             </div>

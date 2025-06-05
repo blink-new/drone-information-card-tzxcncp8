@@ -1,4 +1,4 @@
-import DroneCard from './components/DroneCard'
+import DroneList from './components/DroneList'
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
           <h1 className="text-4xl font-bold text-white mb-2">Drone Command Center</h1>
           <p className="text-slate-400">Real-time monitoring and control interface</p>
         </div>
-        <DroneCard />
+        <DroneList />
       </div>
     </div>
   )
